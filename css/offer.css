@@ -1,0 +1,80 @@
+.offer__img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+.offer__img-slider-cont{
+    margin: auto .5em;
+}
+.offer__slider-cont{
+    box-shadow: 3px 21px 25px -13px rgba(0,0,0,0.2);
+
+}
+
+.offer__title{
+    text-align: left;
+    font-family: 'Oswald regular';
+    margin-top: 2em;
+}
+.offer__content-cont .card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.offer__content-cont .card{
+    width: 40em;
+    height: auto;
+}
+@media only screen and (min-width:2001px) and (max-width:2300px){
+    .offer__img-slider-cont{
+        height: 26em;
+    }
+}
+@media only screen and (min-width:1701px) and (max-width:2000px){
+    .offer__img-slider-cont{
+        height: 26em;
+    }
+}
+@media only screen and (min-width:1251px) and (max-width:1700px){
+    .offer__img-slider-cont{
+        height: 24em;
+    }
+}
+@media only screen and (min-width:1025px) and (max-width:1250px){
+    .offer__img-slider-cont{
+        height: 24em;
+    }
+    .offer__content-cont .card{
+        width: 34em;
+        height: auto;
+    }
+}
+@media only screen and (min-width:701px) and (max-width:1024px){
+    .offer__img-slider-cont{
+        height: 20em;
+    }
+    .offer__content-cont .card{
+        width: 27em;
+        height: auto;
+    }
+}
+@media only screen and (min-width:461px) and (max-width:700px){
+    .offer__img-slider-cont{
+        height: 17em;
+    }
+    .offer__content-cont .card{
+        width: 25em;
+        height: auto;
+    }
+}
+@media only screen and (min-width:360px) and (max-width:460px){
+    .offer__img-slider-cont{
+        height: 20em;
+    }
+    .offer__content-cont .card{
+        width: 20em;
+        height: auto;
+    }
+
+}
